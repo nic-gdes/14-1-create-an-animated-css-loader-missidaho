@@ -52,6 +52,7 @@ body {
  
 }
 
+
 @keyframes anime1 {
     0% {
         transform: scale(0);
@@ -80,4 +81,24 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
+}
+
+.animation2 {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+    align-content: center;
+    animation-name: anime2;
+}
+
+.animation2 img {
+    width: 300px;
+ 
+}
+
+@keyframes anime2 {
+    0% {
+        transform: ;
+    }
 }
