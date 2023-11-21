@@ -1,9 +1,9 @@
 body {
     min-height: 100vh;
     min-width: 100vw;
-    background-color: rgb(253, 243, 223);
+    background-color: rgb(255, 255, 255);
  }
- div {
+ /* div {
     height: 200px;
     width: 200px;
     background-color: pink;
@@ -11,7 +11,7 @@ body {
     animation-duration: 3s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-}
+} */
 #bounce2 {
     animation-delay: 1.5s;
 }
@@ -32,3 +32,47 @@ body {
         transform: translate(0,0);
     }
  }
+.animation1 {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+    align-content: center;
+    padding-top: 10rem;
+    animation-name: anime1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    
+}
+p {
+    width: 300px;
+ 
+}
+
+@keyframes anime1 {
+    0% {
+        transform: scale(0);
+    }
+    25% {
+        transform: scale(45%);
+        rotate: 365deg;
+    }
+    50% {
+        transform: scale(200%);
+        rotate: 360deg;
+    }
+    50% {
+        transform: scale(45%);
+    }
+    100% {
+        transform: scale(0%);
+    }
+}
+.background {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
